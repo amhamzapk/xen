@@ -688,7 +688,7 @@ int __init reserve_e820_ram(struct e820map *e820, uint64_t s, uint64_t e)
 
 unsigned long __init init_e820(const char *str, struct e820map *raw)
 {
-    printk("Custom Print Branch git branch 4.11 stable:\n", str);
+    printk("Custom Print Branch git branch 4.11 stable\n");
     if ( e820_verbose )
     {
         printk("Initial %s RAM map:\n", str);
